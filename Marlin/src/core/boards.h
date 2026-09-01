@@ -496,6 +496,8 @@
 #define BOARD_ZNP_ROBIN_NANO_V1_3           5260  // Elegoo Neptune 2 v1.3 board
 #define BOARD_MKS_NEPTUNE_X                 5261  // Elegoo Neptune X
 #define BOARD_MKS_NEPTUNE_3                 5262  // Elegoo Neptune 3
+#define BOARD_CREATBOT_V1_0                 5263  // CreatBot V1.0 (STM32F446VET6)
+#define BOARD_CREATBOT_V2_0                 5264  // CreatBot V2.0 (STM32F446VET6)
 
 //
 // Other ARM Cortex-M4
