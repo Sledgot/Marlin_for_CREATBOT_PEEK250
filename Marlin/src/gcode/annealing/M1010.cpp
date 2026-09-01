@@ -10,10 +10,10 @@
 
 #if ENABLED(ANNEALING_SUPPORT)
 
-  #include "../../../feature/annealing.h"
-  #include "../../../module/temperature.h"
-  #include "../../../MarlinCore.h"
-  #include "../../gcode.h"
+  #include "../../feature/annealing.h"
+  #include "../../module/temperature.h"
+  #include "../../MarlinCore.h"
+  #include "../gcode.h"
 
 /**
  * M1010: Enable / Disable annealing support.
