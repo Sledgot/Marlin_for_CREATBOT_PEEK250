@@ -6,7 +6,7 @@
  *
  */
 
-#include "../../../inc/MarlinConfig.h"
+#include "../../inc/MarlinConfig.h"
 
 #if ENABLED(ANNEALING_SUPPORT)
 
