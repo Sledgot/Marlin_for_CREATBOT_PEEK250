@@ -2854,6 +2854,12 @@ void Motion::prepare_line_to_destination() {
  * Callers must sync the planner position after calling this!
  */
 void Motion::set_axis_is_at_home(const AxisEnum axis) {
+  if (planner.cleaning_buffer_counter) {
+    set_axis_untrusted(axis);
+    set_axis_unhomed(axis);
+    return;
+  }
+
   if (DEBUGGING(LEVELING)) DEBUG_ECHOLNPGM(">>> set_axis_is_at_home(", C(AXIS_CHAR(axis)), ")");
 
   set_axis_trusted(axis);
