@@ -832,6 +832,10 @@
   #include "stm32f4/pins_MKS_NEPTUNE_X.h"           // STM32F4                              env:mks_neptune_x
 #elif MB(MKS_NEPTUNE_3)
   #include "stm32f4/pins_MKS_NEPTUNE_3.h"           // STM32F4                              env:mks_neptune_3
+#elif MB(CREATBOT_V1_0)
+  #include "stm32f4/pins_CreatBot_F446_V1_0.h"      // STM32F4                              env:CreatBot_F446
+#elif MB(CREATBOT_V2_0)
+  #include "stm32f4/pins_CreatBot_F446_V2_0.h"      // STM32F4                              env:CreatBot_F446
 
 //
 // Other ARM Cortex-M4
